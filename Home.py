@@ -21,7 +21,7 @@ st.write("""Este proyecto aborda el problema de la siniestralidad de motociclist
 #Ponemos una imagen a nuestra pagina
 from PIL import Image
 #habrimos la imagen
-imagen = Image.open("media/imagen.jpg")
+imagen = Image.open("/mount/src/pag/media/imagen.jpg")
 #incrustamos la imagen
 st.image(imagen, caption="",
          use_container_width=True,width=700)
